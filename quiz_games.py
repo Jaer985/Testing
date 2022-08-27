@@ -74,4 +74,5 @@ else:
     print("Incorrecta")
 
 sleep(1)
-print ("Tienes " + str(pts) + " /4 puntos")
+print ("Obtuviste " + str(pts) + " /4 puntos")
+
