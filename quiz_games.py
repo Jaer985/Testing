@@ -22,7 +22,7 @@ pts = 0
 # Pregunta 1
 sleep(1)
 
-answer = input("Nombre del programador? ")
+answer = input("Cual es el nombre del programador? ")
 print("Y la respuesta es...")
 sleep(1)
 if answer.lower() == "jesus":
@@ -35,7 +35,7 @@ else:
 # Pregunta 2
 sleep(1)
 
-answer = input("Cual es mi color favorito? ")
+answer = input("Cual es el color favorito del programador? ")
 print("Y la respuesta es...")
 sleep(1)
 if answer.lower() == "verde":
@@ -49,10 +49,10 @@ else:
 # Pregunta 3
 sleep(1)
 
-answer = input("Como se llama mi esposa? ")
+answer = input("cuanto es la suma de 5+9? ")
 print("Y la respuesta es...")
 sleep(1)
-if answer.lower() == "maria":
+if answer.lower() == "14":
     print("Correcta")
     pts += 1
 
@@ -62,11 +62,11 @@ else:
 # Pregunta 4
 sleep(1)
 
-answer = input("Cual es el nombre de mi hijo? ")
+answer = input("Cuanto es el valor de la gravedad? ")
 print("Y la respuesta es...")
 sleep(1)
 
-if answer.lower() == "juan":
+if answer.lower() == "10":
     print("Correcta")
     pts += 1
 
