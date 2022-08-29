@@ -1,15 +1,13 @@
 #Logger
-def logger():
-    file = open("log.txt", "w")
-    file.write(datainput + "/n")
-    file.close()
 
+datawr = input("Data log: ")
 while True:
-    datainput = input("Data log: ")
-    if datainput == "exit" or "Exit":
+    if datawr == "exit" or datawr == "quit":
         break
     else:
-        file = open("log.txt", "w")
-        file.write(datainput + "/n")
-        file.close()
-    
+        f = open("log.txt", "a")
+        f.write(datawr + "\n")
+        f.close()    
+        datawr = input("Data log: ")
+
+
