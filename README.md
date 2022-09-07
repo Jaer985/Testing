@@ -1,2 +1,1 @@
-Coding and programming,
-Testing stuff
+Odin Project
