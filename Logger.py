@@ -5,7 +5,7 @@
 # To exit the program you can write quit or exit
 
 
-print("Hola, bienvenido a mi programa de registro.\n"+"este programa esta diseñado para guardar en un archivo de texto")
+print("Hello, welcome to my logger.\n"+"this was made to save anything txt by only writting in it and pressing enter")
 
 #Main data saver for 2 or more lines
 def save_data():
